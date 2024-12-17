@@ -1,0 +1,449 @@
+dministrator@administrator-Lenovo-V130-14IKB:~$ cd /
+administrator@administrator-Lenovo-V130-14IKB:/$ ls
+bin  boot  cdrom  dev  etc  home  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+administrator@administrator-Lenovo-V130-14IKB:/$ cd home
+administrator@administrator-Lenovo-V130-14IKB:/home$ ls
+administrator  lost+found  skacas
+administrator@administrator-Lenovo-V130-14IKB:/home$ history
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  ifconfig
+    4  sudo apt install net-tools
+    5  gcc --version
+    6  sudo apt install gcc
+    7  sudo apt install g++
+    8  gcc --version
+    9  g++ version
+   10  g++ --version
+   11  java -version
+   12  java --version
+   13  sudo apt install openjdk-8-jre-headless
+   14  jaavc
+   15  sudo apt install openjdk-8-jdk-headless
+   16  javac
+   17  java -version
+   18  clear
+   19  gedit sample.c
+   20  gcc sample.c
+   21  ./a.out
+   22  gedit swap.c
+   23  gcc swap.c
+   24  ./a.out
+   25  gedit integer.cpp
+   26  g++ integer.cpp
+   27  ./a.out
+   28  gedit HellWorld.java
+   29  javac HelloWorld.java
+   30  ls
+   31  javac HellWorld.java
+   32  java HellWorld
+   33  java HellWorld.java
+   34  gedit GFG.java
+   35  javac GFG.java
+   36  java GFG.java
+   37  java GFG
+   38  javac HellWorld.java
+   39  java HellWorld
+   40  javac HelloWorld.java
+   41  java HelloWorld
+   42  gedit HelloWorld.java
+   43  javac HelloWorld.java
+   44  java Helloworld
+   45  java Helloworld.java
+   46  javac
+   47  java -version
+   48  javac GFG.java
+   49  java GFG
+   50  cd Downloads/
+   51  ls
+   52  javac DigitalClock.java
+   53  appletviewer DigitalClock
+   54  sudo apt install openjdk-8-jdk
+   55  javac DigitalClock.java
+   56  appletviewer DigitalClock
+   57  javac DigitalClock.java
+   58  cd Downloads/
+   59  javac DigitalClock.java
+   60  appletviewer DigitalClock
+   61  appletviewer DigitalClock.java
+   62  javac GraphicsDemo.java
+   63  appletviewer GraphicsDemo.java
+   64  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   65  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   66  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   67  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   68  ifconfig
+   69  su administrator
+   70  sudo bash
+   71  vim
+   72  sudo apt install vim  
+   73  vim vim1.txt
+   74  vim
+   75  vim file1.txt
+   76  nano file1.txt
+   77  ls
+   78  cd /
+   79  ls
+   80  cd home
+   81  ls
+   82  cd skacas
+   83  cd administrator
+   84  ls
+   85  cd Desktop
+   86  mkdir cloud
+   87  cd cloud
+   88  touch file1.txt
+   89  touch file2.txt
+   90  pwd
+   91  echo -e "hey you" file1.txt
+   92  echo "hey you" > file1.txt
+   93  echo "are you ok" > file2.txt
+   94  grep -r -l "y*" file1.txt file2.txt
+   95  grep -r -l "a*" file1.txt file2.txt
+   96  grep -r file1.txt file2.txt
+   97  cd /
+   98  ls
+   99  cd home
+  100  ls
+  101  cd administration
+  102  cd /
+  103  cd home
+  104  ls
+  105  cd administrator
+  106  ls
+  107  cd Desktop
+  108  mkdir free.txt
+  109  cd free.txt
+  110  cat > free.txt
+  111  grep "pubg" free.txt | wc -l
+  112  cat free.txt | wc -l
+  113  cat free.txt | wc -w
+  114  cat free.txt | wc -c
+  115  cat > free.txt
+  116  cat free.txt
+  117  cat <  free.txt
+  118  cd ..
+  119  cd Documents
+  120  cd ..
+  121  cat/etc/passwd
+  122  cd home
+  123  cd administrator
+  124  cd Desktop
+  125  ls -ld
+  126  cat/etc/passwd
+  127  cat /etc/passwd
+  128  cd /
+  129  ls
+  130  cd home
+  131  ls
+  132  cd administrator
+  133  ls
+  134  cd cloud
+  135  sudo /etc/passwd
+  136  cd ..
+  137  sudo useradd bala
+  138  cat /etc/passwd
+  139  sudo passwd bala
+  140  su bala
+  141  uesrdel bala
+  142  sudo user bala
+  143  sudo userdel bala
+  144  su bala
+  145  sudo chown 777 bala
+  146  sudo chown 755 bala
+  147  su bala
+  148  cd /
+  149  ls
+  150  cd home
+  151  cd administrator
+  152  ls
+  153  cd Desktop
+  154  touch dir.txt
+  155  su bala
+  156  chown
+  157  chmod dir.txt
+  158  chmod 777 dir.txt
+  159  ll dir.txt
+  160  su bala
+  161  sudo userdel bala
+  162  userdel bala
+  163  sudo userdel bala
+  164  sudo userdel -f bala
+  165  clear
+  166  sudo userdel bala
+  167  cat /etc/passwd
+  168  cd / mnt/d
+  169  clear
+  170  /mnt/d# nano script.sh
+  171  /mnt /d# nano script.sh
+  172  /mnt/d# nano script.sh
+  173  nano script.sh
+  174  cat script.sh
+  175  nano script.sh
+  176  ./
+  177  ./script.sh
+  178  chmod 777 script.sh
+  179  ./script.sh
+  180  nano script.sh
+  181  ./script.sh
+  182  nano script.sh
+  183  ./script.sh
+  184  nano script.sh
+  185  ./script.sh
+  186  nano script.sh
+  187  ./script.sh
+  188  nano script.sh
+  189  ./script.sh
+  190  nano script.sh
+  191  ./script.sh
+  192  nano script.sh
+  193  ./script.sh
+  194  nano script.sh
+  195  ./script.sh
+  196  nano script.sh
+  197  ./script.sh
+  198  nano script.sh
+  199  ./script.sh
+  200  nano script.sh
+  201  ./script.sh
+  202  nano script.sh
+  203  ./script.sh
+  204  nano script.sh
+  205  ./script.sh
+  206  nano script.sh
+  207  ./script.sh
+  208  nano script.sh
+  209  ./script.sh
+  210  nano script.sh
+  211  ./script.sh
+  212  nano script.sh
+  213  ./script.sh
+  214  nano script.sh
+  215  ./script.sh
+  216  nano script.sh
+  217  ./script.sh
+  218  nano script.sh
+  219  ./script.sh
+  220  nano script.sh
+  221  ./script.sh
+  222  nano script.sh
+  223  ./script.sh
+  224  nano script.sh
+  225  ./script.sh
+  226  nano script.sh
+  227  ./script.sh
+  228  nano script.sh
+  229  ./script.sh
+  230  nano script.sh
+  231  ./script.sh
+  232  nano script.sh
+  233  ./script.sh
+  234  nano script.sh
+  235  ./script.sh
+  236  nano script.sh
+  237  ./script.sh
+  238  nano script.sh
+  239  ./script.sh
+  240  nano script.sh
+  241  ./script.sh
+  242  nano script.sh
+  243  ./script.sh
+  244  nano script.sh
+  245  bala
+  246  nano script.sh
+  247  bala
+  248  ./script.sh
+  249  nano script.sh
+  250  ./script.sh
+  251  nano script.sh
+  252  ./script.sh
+  253  nano script1.sh
+  254  ./script1.sh
+  255  chmod 777 script1.sh
+  256  ./script1.sh
+  257  nano script1.sh
+  258  ./script1.sh
+  259  nano script1.sh
+  260  ./script1.sh
+  261  nano script1.sh
+  262  ./script1.sh
+  263  nano script1.sh
+  264  ./script1.sh
+  265  nano script1.sh
+  266  ./script1.sh
+  267  nano script1.sh
+  268  ./script1.sh
+  269  nano script1.sh
+  270  ./script1.sh
+  271  nano script1.sh
+  272  ./script1.sh
+  273  nano script1.sh
+  274  ./script1.sh
+  275  nano script1.sh
+  276  ./script1.sh
+  277  nano script1.sh
+  278  ./script1.sh
+  279  nano script1.sh
+  280  ./script1.sh
+  281  nano script1.sh
+  282  ./script1.sh
+  283  nano script1.sh
+  284  ./script1.sh
+  285  nano script1.sh
+  286  ./script1.sh
+  287  cd ..
+  288  cd /
+  289  clear
+  290  git
+  291  sudo apt install git
+  292  sudo app update
+  293  sudo apt update
+  294  sudo apt install git
+  295  git
+  296  git--virsion
+  297  git--version
+  298  git --version
+  299  git
+  300  clear
+  301  git
+  302  clear
+  303  git --version
+  304  git
+  305  clear
+  306  cd /
+  307  cd Desktop
+  308  ls
+  309  cd home
+  310  ls
+  311  cd administrator
+  312  ls
+  313  cd Desktop
+  314  git --version
+  315  mkdir cloud
+  316  ls
+  317  mkdir cloud1
+  318  cd cloud1
+  319  git init
+  320  git config --list
+  321  git config --global user.name "bala1305"
+  322  git config --list
+  323  git config --global user.gmail "nachirmm1975@gmail.com"
+  324  git config --list
+  325  git config --global user.email "nachirmm1975@gmail.com"
+  326  git config --list
+  327  git config --global usedelr.email "nachirmm1975@gmail.com"
+  328  git config --list
+  329  git config --global init.defaultbranch main
+  330  git config --global init.defaultBranch main
+  331  git config --list
+  332  git config --global core.eol lf
+  333  git config --list
+  334  cd /
+  335  cd home
+  336  ls
+  337  cd administrator
+  338  ls
+  339  cs Desktop
+  340  cd Desktop
+  341  ls
+  342  cdcloud1
+  343  cd cloud1
+  344  ls
+  345  ls -l
+  346  git config --list
+  347  git config --global core.autocrlf input
+  348  git config --list
+  349  git config --global core.ignorecase true
+  350  git config --list
+  351  clear
+  352  git config --list
+  353  ls
+  354  git clone
+  355  https://github.com/bala1305/demofile.git
+  356  git clone https://github.com/bala1305/demofile.git
+  357  ls
+  358  cd demofile
+  359  ls
+  360  touch file.txt
+  361  ls
+  362  git add file.txt
+  363  cat > file.txt
+  364  git commit -m "first commit"
+  365  git push origin main
+  366  git remote set-url origin "https://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@github.com/bala1305/demofile.git
+  367  git remote set-url origin "https://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@github.com/bala1305/demofile
+  368  git remote -v
+  369  git push origin main
+  370  git remote set-url origin "https://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@github.com/bala1305/demofile
+  371  git remote set-url origin "https://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@github.com/bala1305/demofile"
+  372  git remote -v
+  373  git push origin main
+  374  cat file.txt
+  375  ls
+  376  cat file.txt
+  377  git status
+  378  git add file.txt
+  379  git status
+  380  git commit -m "second commit"
+  381  git status
+  382  git push origin main
+  383  git remote -v
+  384  git remote set-url origin
+  385  git remote set-url origin "https://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@github.com/bala1305/demofile
+  386  git remote set-url origin "https://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@github.com/bala1305/demofile"
+  387  git remote -v
+  388  git
+  389  git remote -v
+  390  cd /
+  391  ls
+  392  cd home
+  393  ls
+  394  cd administrator
+  395  ls
+  396  cd Desktop
+  397  ls
+  398  cd cloud1
+  399  ls
+  400  cd ..
+  401  mkdir gittest
+  402  ls
+  403  cd gittest
+  404  git init
+  405  git config --list
+  406  git clone https://github.com/bala1305/demofile.git
+  407  cat > test.txt
+  408  cd test.txt
+  409  cat test.txt
+  410  git clone "https://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@github.com/bala1305/test.txt
+  411  git clone "https://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@github.com/bala1305/test.txt"
+  412  git clone "https://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@github.com/bala1305/gittest.txt"
+  413  git clone "https://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@github.com/bala1305/gittest"
+  414  https://github.com/bala1305/test.git
+  415  git clone "https://github.com/bala1305/test.git@github.com/bala1305/gittest"
+  416  git init
+  417  git status
+  418  git add test.txt
+  419  git status
+  420  git add demofile/
+  421  git status
+  422  git push test.txt
+  423  git push demofile
+  424  git remote -v
+  425  git status
+  426  git commit -m " testing git"
+  427  git status
+  428  git https://github.com/bala1305/test.git
+  429  git --help
+  430  git push " https://github.com/bala1305/test.git"
+  431  git push " github.com/bala1305/test.git"
+  432  git push " https://github.com/bala1305/test.git"
+  433  https://github.com/bala1305/test.git
+  434  git status
+  435  git push origin main
+  436  git push origin main "https://github.com/bala1305/test.git"
+  437  git status
+  438  cd /
+  439  ls
+  440  cd home
+  441  ls
+  442  history
